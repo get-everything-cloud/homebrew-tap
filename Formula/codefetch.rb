@@ -7,20 +7,20 @@ class Codefetch < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://get.everything.cloud/codefetch/cli/codefetch-1.0.0-darwin-amd64.tar.gz"
-      sha256 "0c8b30ca46a29b73bdd527d9e25ea87e22e8a350ac9621a06bbfda94fd1c5240"
+      sha256 "f421931f5241b4f0648ecb548fce695d42c56e2cbb3768e3ed7094d560782fba"
     else
       url "https://get.everything.cloud/codefetch/cli/codefetch-1.0.0-darwin-arm64.tar.gz"
-      sha256 "74151bd3985dcf1ed63589a155ec761a3e158896c5e24232c94e7722bf5f88e1"
+      sha256 "ad2ecafd976f9f4a276c83322b57f0dd0bd8f5952a92ad21999204a8fb80d3a4"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
       url "https://get.everything.cloud/codefetch/cli/codefetch-1.0.0-linux-amd64.tar.gz"
-      sha256 "8e7f72ce974590ec9b5e3628b7becee39b8a7fa6176d09c2b8bf5fc684602712"
+      sha256 "add146163622178b22e6735424a7fbe6d3b227a0ccc41d30fb8bfee8713bd35b"
     else
       url "https://get.everything.cloud/codefetch/cli/codefetch-1.0.0-linux-arm64.tar.gz"
-      sha256 "f8b77c1ef8d2330b98209b39d7694ea0c8272de849fa778b51eae1da099796e7"
+      sha256 "0d1851619188447dc454167bdbd30471e328b8f82c1afb32cee4594fcd661ad5"
     end
   end
 
