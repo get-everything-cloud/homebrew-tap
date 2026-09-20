@@ -7,20 +7,20 @@ class Code2apirun < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://get.everything.cloud/code2api/run/code2api-run-1.0.0-darwin-amd64.tar.gz"
-      sha256 "5295d492838c3a0d9420760448cc13618fc87989279bd73abeac8d9cb97d996c"
+      sha256 "3e0f00eef3271dc3b1c7812249bf75d9aba8fa0d7c7efb0ee3fb6d3eb69602e2"
     else
       url "https://get.everything.cloud/code2api/run/code2api-run-1.0.0-darwin-arm64.tar.gz"
-      sha256 "456f4e315c4fc3a29eecc6bf05fdede82f3609dae5df9be2969424999bee9dd3"
+      sha256 "a852e6d09fa9382292a05402778058d0ab9f03be1d8c4d54f2866d8ccc5d9e09"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
       url "https://get.everything.cloud/code2api/run/code2api-run-1.0.0-linux-amd64.tar.gz"
-      sha256 "8c65c2dd6f8a3ce1235a3a5eecc834e69daf175051c0ec5f1a7fe3561d0deb1a"
+      sha256 "b298ebfc6cf31c6c7f8e442b1e1d87ad8d8412676361f22c509e4a40ffdac484"
     else
       url "https://get.everything.cloud/code2api/run/code2api-run-1.0.0-linux-arm64.tar.gz"
-      sha256 "9b4bac5b22d92f619deccad3e46779e3d67b0ea81f326b9dc7ae23ebeadea747"
+      sha256 "1fa797de4dfa07f9bc759d6956adae5f558cbc3584ea0c78f4833d7a2f9b0dff"
     end
   end
 
