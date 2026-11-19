@@ -6,10 +6,16 @@ The [Homebrew](https://brew.sh) tap for [everything.cloud](https://everything.cl
 
 ```sh
 brew tap get-everything-cloud/tap
+brew trust get-everything-cloud/tap
 brew install <formula>
 ```
 
-Or install a formula directly without tapping first:
+Since Homebrew 6.0, formulas from taps outside Homebrew itself only load once
+you trust them ([Tap Trust](https://docs.brew.sh/Tap-Trust)). `brew trust
+get-everything-cloud/tap` trusts this whole tap, once per machine. To trust a
+single formula instead, run `brew trust --formula get-everything-cloud/tap/<formula>`.
+
+Or install a formula directly without tapping first (after trusting it):
 
 ```sh
 brew install get-everything-cloud/tap/<formula>
