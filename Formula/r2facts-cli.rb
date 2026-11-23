@@ -1,25 +1,25 @@
 class R2factsCli < Formula
   desc "Build, package, sign and publish releases to an R2Facts instance"
   homepage "https://everything.cloud"
-  version "0.3.0"
+  version "0.3.1"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://get.everything.cloud/r2facts/cli/r2facts-cli-0.3.0-darwin-amd64.tar.gz"
-      sha256 "101ed7f9577a4500e3762a3d9d7b456d4796b7198135f55be734ee9bdc226cdd"
+      url "https://get.everything.cloud/r2facts/cli/r2facts-cli-0.3.1-darwin-amd64.tar.gz"
+      sha256 "3db6e672cff7fab8811d36094bb3d6c768d7639d9ad74e2208842fa7bd2aac90"
     else
-      url "https://get.everything.cloud/r2facts/cli/r2facts-cli-0.3.0-darwin-arm64.tar.gz"
-      sha256 "6e26e6defe1589b4775b85d52c194b8c4279d6cdd97ade4ca64d88b25a522c53"
+      url "https://get.everything.cloud/r2facts/cli/r2facts-cli-0.3.1-darwin-arm64.tar.gz"
+      sha256 "6a929bca8e40657e1bf7a2e70ee3e9ba04defde347c6b99c804ab803374280bc"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://get.everything.cloud/r2facts/cli/r2facts-cli-0.3.0-linux-amd64.tar.gz"
-      sha256 "fffb27ec61d8a8baeb3383d5910c085e49be3575558649c70e16d21e30a4f494"
+      url "https://get.everything.cloud/r2facts/cli/r2facts-cli-0.3.1-linux-amd64.tar.gz"
+      sha256 "647fc1fab8774fc8a46eb7cbcfd793e43ab9eeca543aa2d4ec040e67c234434e"
     else
-      url "https://get.everything.cloud/r2facts/cli/r2facts-cli-0.3.0-linux-arm64.tar.gz"
-      sha256 "b8f7604d4fb410ac250add278adb14facddce23f6feb3cacc8ca2532967a93e9"
+      url "https://get.everything.cloud/r2facts/cli/r2facts-cli-0.3.1-linux-arm64.tar.gz"
+      sha256 "07e566acc16e984d2ea8040e2c26633aa57152951542bedb153fbf22f5ac7d7a"
     end
   end
 
