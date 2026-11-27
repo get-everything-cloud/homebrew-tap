@@ -1,26 +1,26 @@
 class ReacksCli < Formula
   desc "ReACKs command-line tool"
   homepage "https://everything.cloud"
-  version "0.4.0"
+  version "0.4.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://get.everything.cloud/reacks/cli/reacks-cli-0.4.0-darwin-amd64.tar.gz"
-      sha256 "4bd0575ce117eb83a4c33bd15c0dc2a40e960ccf02cfe930cf30fcc70d1e907c"
+      url "https://get.everything.cloud/reacks/cli/reacks-cli-0.4.1-darwin-amd64.tar.gz"
+      sha256 "271be0ad90eb21d17eb64afc72b399a91dfcf0f2251489e9b03a34500a2d376e"
     else
-      url "https://get.everything.cloud/reacks/cli/reacks-cli-0.4.0-darwin-arm64.tar.gz"
-      sha256 "28418ba441d6419d0e4c1ecc8715ab703a97cc56d44a1e5a5376a7504404d46e"
+      url "https://get.everything.cloud/reacks/cli/reacks-cli-0.4.1-darwin-arm64.tar.gz"
+      sha256 "08cb9ceb372c3eda8976d80249e8e0e9547e9dbc38c1c050cf5995c297751e31"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://get.everything.cloud/reacks/cli/reacks-cli-0.4.0-linux-amd64.tar.gz"
-      sha256 "3fa137daae33b5bf9bc75e41e7026444be188a323fa1d60fd9005c5171e25f6a"
+      url "https://get.everything.cloud/reacks/cli/reacks-cli-0.4.1-linux-amd64.tar.gz"
+      sha256 "22056e42ebeefbb14f1b9f6d505933a436f7adb130fcf75697b4b4b60562a358"
     else
-      url "https://get.everything.cloud/reacks/cli/reacks-cli-0.4.0-linux-arm64.tar.gz"
-      sha256 "1d0f754dff295118b259e2c966f666fae9cf9f2c6b8ba4f70ddccb94c023a709"
+      url "https://get.everything.cloud/reacks/cli/reacks-cli-0.4.1-linux-arm64.tar.gz"
+      sha256 "12803e7be2282e8f227d13ea9578584a2bdb84f42c050c2286af6467d18c1e66"
     end
   end
 
